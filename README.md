@@ -8,7 +8,7 @@ O PROJECT MANAGER é um software de cadastro e gerenciamento de projetos e taref
 
 ## Links Uteis
 
-<li>Online Preview: <a href="https://frontend-project-manager.vercel.app/" target="_blank">Link</a></li>
+<li>Online Preview: <a href="https://fe-project-manager.vercel.app/" target="_blank">Link</a></li>
 
 </br>
 
