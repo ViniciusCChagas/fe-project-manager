@@ -50,7 +50,7 @@ export function EditModal({
             <Button onClick={() => onClose(null)}>Cancel</Button>
             <Button
               onClick={() => onClose(value)}
-              className={'w-full bg-green-700 text-white'}
+              className={'w-full !bg-green-700 text-white'}
               loading={isLoading}
             >
               Save {typeName}

@@ -145,7 +145,7 @@ export function TaskItem({ task }: ITaskItemProps) {
           <Button
             leftIcon={'Edit'}
             title={'Edit Project'}
-            className={'bg-transparent !p-0'}
+            className={'!bg-transparent !p-0'}
             onClick={(e) => {
               e.stopPropagation();
               setIsEditModalOpen(true);
@@ -154,7 +154,7 @@ export function TaskItem({ task }: ITaskItemProps) {
           <Button
             leftIcon={'Delete'}
             title={'Delete Project'}
-            className={'bg-transparent !p-0'}
+            className={'!bg-transparent !p-0'}
             onClick={(e) => {
               e.stopPropagation();
               setIsDeleteModalOpen(true);

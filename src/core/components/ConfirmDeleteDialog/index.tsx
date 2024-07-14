@@ -34,7 +34,7 @@ export function ConfirmDeleteDialog({
             <Button onClick={() => onClose(false)}>Cancel</Button>
             <Button
               onClick={() => onClose(true)}
-              className={'bg-red-600 text-white'}
+              className={'!bg-red-600 text-white'}
               loading={isLoading}
             >
               Delete {typeName}
