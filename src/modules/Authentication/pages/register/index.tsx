@@ -35,7 +35,7 @@ export function RegisterPage() {
         type: 'success',
         autoClose: 7000,
       });
-      navigate('/login', { replace: true });
+      navigate('/auth/login', { replace: true });
     } catch (err) {
       const error = err as AxiosError;
       const responseError = error.response?.data as { message: string };
